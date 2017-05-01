@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre" rel="stylesheet">
+
+    <style>
+        div.gallery {
+            border: 1px solid #9F9F9D;
+        }
+
+            div.gallery:hover {
+                border: 1px solid #F77924;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+
+        div.title a {
+            padding: 5px;
+            text-align: left;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: x-large;
+            line-height: 1.5;
+            color: #83B14F;
+        }
+
+        div.title {
+            padding: 5px;
+            text-align: left;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: x-large;
+            line-height: 1.5;
+            color: #83B14F;
+        }
+
+
+        div.desc {
+            padding: 5px;
+            text-align: left;
+            font-size: small;
+            line-height: 1.5;
+            color: #44883d;
+        }
+
+        div.manufactor {
+            text-align: left;
+            font-size: small;
+            line-height: 2;
+        }
+
+        div.manufacturer:before {
+            padding: 5px;
+            content: "Manufacturer: ";
+        }
+
+
+        div.price {
+            padding: 5px;
+            font-family: 'Cormorant Garamond', serif;
+            text-align: right;
+            font-size: x-large;
+            line-height: 1.5;
+            font-weight: bolder;
+            color: #F77924;
+        }
+
+            div.price:after {
+                content: " €"
+            }
+
+
+        * {
+            font-family: 'Proza Libre', sans-serif;
+            box-sizing: border-box;
+            background: #222;
+            color: #83B14F;
+        }
+
+
+        h1, h2, h3, h4 {
+            font-family: 'Cormorant Garamond', serif;
+            color: #F77924;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sale</h1>
+    
+    <!--
+
+        Busts
+
+    -->
+    <h2>Busts</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="./img/P4260019.jpg">
+                <img src="./img/P4260019.jpg" alt="Kharis" width="300" height="200">
+            </a>
+            <div class="title">
+                <a href="http://www.kabuki-studio.com/busts/240-kharis.html">Kharis</a>
+            </div>
+            <div class="manufacturer">Kabuki Studio</div>
+            <div class="price">40</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260020.jpg">
+                <img src="img/P4260020.jpg" alt="Bonny Anne" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.kabuki-studio.com/busts/207-bonny-anne.html">Bonny Anne</a>
+            </div>
+            <div class="manufacturer">Kabuki Studio</div>
+            <div class="price">50</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260021.jpg">
+                <img src="img/P4260021.jpg" alt="Ky-Rà" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.kabuki-studio.com/busts/70-ky-ra.html">Ky-Rà</a>
+            </div>
+            <div class="manufacturer">Kabuki Studio</div>
+            <div class="price">40</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260046.jpg">
+                <img src="img/P4260046.jpg" alt="Germanic warrior AD 9" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.heroesvillainsminiatures.com/product/germanic-warrior-ad9/">Germanic warrior AD 9</a>
+            </div>
+            <div class="manufacturer">H&amp;V Miniatures</div>
+            <div class="price">20</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260035.jpg">
+                <img src="img/P4260035.jpg" alt="Knight of the Lion Order" width="600" height="400">
+            </a>
+            <div class="title">Knight of the Lion Order</div>
+            <div class="desc">Is out of print. Might come with an additional "human" head, but I'm not sure about this.</div>
+            <div class="manufacturer">H&amp;V Miniatures</div>
+            <div class="price">30</div>
+        </div>
+    </div>
+	
+    <div class="clearfix"></div>
+	
+    <!--
+
+        54 mm
+
+    -->
+    <h2>54 mm</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="./img/P4260030.jpg">
+                <img src="./img/P4260030.jpg" alt="Ainariël Arrow of Light" width="300" height="200">
+            </a>
+            <div class="title">
+                <a href="http://www.andreaeurope.com/en/1/andrea-miniatures/123/warlord-saga/1164/ws-06-ainaril-arrow-of-light.html">Ainari&euml;l Arrow of Light</a>
+            </div>
+            <div class="manufacturer">Andrea Miniatures</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260047.jpg">
+                <img src="img/P4260047.jpg" alt="Zwëothel, Queen of Darkness" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.andreaeurope.com/en/1/andrea-miniatures/123/warlord-saga/1914/ws-31-zwothel-queen-of-darkness.html">Zw&euml;othel, Queen of Darkness</a>
+            </div>
+            <div class="manufacturer">Andrea Miniatures</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260048.jpg">
+                <img src="img/P4260048.jpg" alt="Beelphegor, The Soul Reaper" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.andreaeurope.com/en/1/andrea-miniatures/123/warlord-saga/1408/ws-20-bestor-savage-claws.html">Beelphegor, The Soul Reaper</a>
+            </div>
+            <div class="manufacturer">Andrea Miniatures</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260049.jpg">
+                <img src="img/P4260049.jpg" alt="Bestor, Savage Claws" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.andreaeurope.com/en/1/andrea-miniatures/123/warlord-saga/1152/ws-05-beelphegor-the-soul-reaper.html">Bestor, Savage Claws</a>
+            </div>
+            <div class="manufacturer">Andrea Miniatures</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260060.jpg">
+                <img src="img/P4260060.jpg" alt="Verthandi, Burning Ice" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.andreaeurope.com/en/1/andrea-miniatures/123/warlord-saga/1486/ws-26-verthandi-burning-ice.html">Verthandi, Burning Ice</a>
+            </div>
+            <div class="manufacturer">Andrea Miniatures</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260043.jpg">
+                <img src="img/P4260043.jpg" alt="General Elf" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.aresmythologic.com/v2/en/draco-54mm/80-fan20-general-elfo.html">General Elf</a>
+            </div>
+            <div class="manufacturer">Ares Mythologic</div>
+            <div class="price">20</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260040.jpg">
+                <img src="img/P4260040.jpg" alt="Cabo with armor and halberd pike" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.art-girona.com/swiss-guard-serie/205-cabo-with-armor-and-halberd-pike.html">Cabo with armor and halberd pike</a>
+            </div>
+            <div class="manufacturer">Art Girona</div>
+            <div class="price">15</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260056.jpg">
+                <img src="img/P4260056.jpg" alt="Halberdier with armor" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.art-girona.com/swiss-guard-serie/209-halberdier-with-armor.html">Halberdier with armor</a>
+            </div>
+            <div class="manufacturer">Art Girona</div>
+            <div class="price">15</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260059.jpg">
+                <img src="img/P4260059.jpg" alt="Hoplite" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://elviejodragon.com/tienda/hoplite/">Hoplite</a>
+            </div>
+            <div class="manufacturer">El Viejo Dragon</div>
+            <div class="price">15</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260062.jpg">
+                <img src="img/P4260062.jpg" alt="Heavy armoured Hoplite" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://elviejodragon.com/tienda/battleship-hoplite-v-bc/">Heavy armoured Hoplite</a>
+            </div>
+            <div class="manufacturer">El Viejo Dragon</div>
+            <div class="price">15</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260061.jpg">
+                <img src="img/P4260061.jpg" alt="Female Hoplite" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://elviejodragon.com/tienda/female-hoplite/">Female Hoplite</a>
+            </div>
+            <div class="manufacturer">El Viejo Dragon</div>
+            <div class="price">15</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260064.jpg">
+                <img src="img/P4260064.jpg" alt="Rocco" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.figone.fr/en/rocco/">Rocco</a>
+            </div>
+            <div class="manufacturer">Figone</div>
+            <div class="price">70</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260041.jpg">
+                <img src="img/P4260041.jpg" alt="Iriney Sorum, Sniper" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.kellerkind-miniaturen.com/product_info.php?info=p7_iriney-sorun---sniper.html">Iriney Sorum, Sniper (Marc)</a>
+            </div>
+            <div class="manufacturer">Kellerkind</div>
+            <div class="price">12</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260042.jpg">
+                <img src="img/P4260042.jpg" alt="Alexey Novakoy, Uranium Locator" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.kellerkind-miniaturen.com/product_info.php?info=p6_alexey-novakoy---uranium-locator.html">Alexey Novakoy</a>
+            </div>
+            <div class="manufacturer">Kellerkind</div>
+            <div class="price">12</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260038.jpg">
+                <img src="img/P4260038.jpg" alt="Freya" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://nocturnamodels.com/product.php?id_product=33">Freya</a>
+            </div>
+            <div class="manufacturer">Nocturna</div>
+            <div class="price">20</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260039.jpg">
+                <img src="img/P4260039.jpg" alt="The Huntress" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://nocturnamodels.com/product.php?id_product=31">The Huntress</a>
+            </div>
+            <div class="manufacturer">Nocturna</div>
+            <div class="price">20</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260044.jpg">
+                <img src="img/P4260044.jpg" alt="The Sorcerer" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://nocturnamodels.com/product.php?id_product=15">The Sorcerer</a>
+            </div>
+            <div class="manufacturer">Nocturna</div>
+            <div class="price">20</div>
+        </div>
+    </div>
+    
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260058.jpg">
+                <img src="img/P4260058.jpg" alt="Virgo" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.zinnfigur.com/Vollfiguren/Bausaetze/Hersteller-S-Z/Yedharo-Models/Virgo.html">Virgo</a>
+            </div>
+            <div class="manufacturer">Yedharo models</div>
+            <div class="price">25</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <!--
+
+        75 mm
+
+    -->
+    <h2>75 mm</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="./img/P4260032.jpg">
+                <img src="./img/P4260032.jpg" alt="Tarathiel Moonelf" width="300" height="200">
+            </a>
+            <div class="title">
+                <a href="http://www.pegasomodels.com/productdetails_en.asp?id=940">Tarathiel Moonelf</a>
+            </div>
+            <div class="manufacturer">Pegaso Models</div>
+            <div class="price">35</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260050jpg">
+                <img src="img/P4260050.jpg" alt="Dancer" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.metal-modeles.com/en/metal-modeles-soldats-de-plomb/phoenix-folies/le-monde-perdu-de-l-atlantis/danseuse-detail">Dancer (80 mm)</a>
+            </div>
+            <div class="manufacturer">Metal Modeles</div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260051.jpg">
+                <img src="img/P4260051.jpg" alt="The Toxophilite" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.metal-modeles.com/en/metal-modeles-soldats-de-plomb/phoenix-folies/le-monde-perdu-de-l-atlantis/tir-a-l-arc-detail">The Toxophilite (80 mm)</a>
+            </div>
+            <div class="manufacturer">Metal Modeles</div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260052jpg">
+                <img src="img/P4260052.jpg" alt="Le boudoir (II)" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://www.metal-modeles.com/en/metal-models-soldiers-of-lead/phoenix-folies/phoenix-fantasy/boudoir-2-detail">Le boudoir (II) (80 mm)</a>
+            </div>
+            <div class="manufacturer">Metal Modeles</div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260034.jpg">
+                <img src="img/P4260034.jpg" alt="" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://ferminiatures.com/shop/clash-of-cultures/knight-of-outremer-1300/">Knight of Outremer Holy Land, 1300</a>
+            </div>
+            <div class="desc">Is now available from FeR Miniatures. This is the old H&amp;V Miniatures Version</div>
+            <div class="manufacturer">H&amp;V Miniatures</div>
+            <div class="price">35</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!--
+
+        90 mm
+
+    -->
+
+    <h2>90 mm</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="./img/P4260036.jpg">
+                <img src="./img/P4260036.jpg" alt="Athena" width="300" height="200">
+            </a>
+            <div class="title">
+                <a href="https://elviejodragon.com/tienda/atenea/">Athena</a>
+            </div>
+            <div class="manufacturer">El Viejo Dragon</div>
+            <div class="price">40</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260063.jpg">
+                <img src="img/P4260063.jpg" alt="" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="http://taurusminiatures.weebly.com/other-scales.html">Sorceress (80 mm)</a>
+            </div>
+            <div class="manufacturer">Taurus Miniatures</div>
+            <div class="price">35</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <!--
+        
+        Kingdom Death
+    
+        -->
+    <h2>Kingdom Death - Kickstarter stuff</h2>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4270100.jpg">
+                <img src="img/P4270100.jpg" alt="Messenger of Humanity" width="300" height="200">
+            </a>
+            <a target="_blank" href="img/P4270101.jpg">
+                <img src="img/P4270101.jpg" alt="Messenger of Humanity" width="300" height="200">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/394446">Messenger of Humanity</a>
+            </div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260076.jpg">
+                <img src="img/P4260076.jpg" alt="Messenger of Spiral Path" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260077.jpg">
+                <img src="img/P4260077.jpg" alt="Messenger of Spiral Path" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://boardgamegeek.com/boardgame/136017/kingdom-death-monster-messenger-spiral-path-promo">Messenger of Spiral Path</a>
+            </div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260080.jpg">
+                <img src="img/P4260080.jpg" alt="Messenger of Courage" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260081.jpg">
+                <img src="img/P4260081.jpg" alt="Messenger of Courage" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/398372">Messenger of Courage</a>
+            </div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260084.jpg">
+                <img src="img/P4260084.jpg" alt="Messenger of first story" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260085.jpg">
+                <img src="img/P4260085.jpg" alt="Messenger of first story" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/381586">Messenger of The First Story</a>
+            </div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260078.jpg">
+                <img src="img/P4260078.jpg" alt="Allison Twilight Knight" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260079.jpg">
+                <img src="img/P4260079.jpg" alt="Allison Twilight Knight" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/381921">Allison Twilight Knight</a>
+            </div>
+            <div class="price">30</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260082.jpg">
+                <img src="img/P4260082.jpg" alt="Kara Black" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260083.jpg">
+                <img src="img/P4260083.jpg" alt="Kara Black" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/381422">Kara Black</a>
+            </div>
+            <div class="price">50</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4260086.jpg">
+                <img src="img/P4260086.jpg" alt="Holiday White Speaker Nico" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4260087.jpg">
+                <img src="img/P4260087.jpg" alt="Holiday White Speaker Nico" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/413527">Holiday White Speaker Nico</a>
+            </div>
+            <div class="price">60</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/P4270097.jpg">
+                <img src="img/P4270097.jpg" alt="Green Knight Armor" width="600" height="400">
+            </a>
+            <a target="_blank" href="img/P4270098.jpg">
+                <img src="img/P4270098.jpg" alt="Green Knight Armor" width="600" height="400">
+            </a>
+            <div class="title">
+                <a href="https://www.kickstarter.com/projects/poots/kingdom-death-monster/posts/380810">Green Knight Armor</a>
+            </div>
+            <div class="price">50</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</body>
+</html>
